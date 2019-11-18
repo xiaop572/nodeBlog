@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+body{
+    background-image: url('../img/bg.png');
+    /* background: linear-gradient(45deg,#d9ddde 0%,#d9ddde 50%,#ff781a 50%,#ff781a 100%); */
+    background-size: 100% 100%;
+}
+/* ----------------背景------------------- */
+/* .bgFlex{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+}
+.bgFontOne{
+    font-size: 600px;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 600px;display: none;
+}
+.bgFontTwo{
+    font-size: 580px;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 580px;display: none;
+} */
+/* ----------------背景------------------- */
+
+
+
+/* ------------------定义主窗口-------------------- */
+#container{
+    background-color: #f3f5f7;
+    width: 76%;
+    height: 76%;
+    position: fixed;
+    z-index: 2;
+    left: 12%;
+    top: 13%;
+    opacity: 0.98;
+}
+#sidebar{
+    width: 15%;
+    height: 100%;
+    background: #ffffff;
+    overflow: hidden;
+    float: left;
+    box-shadow: 3px 0 3px #dee3e6;
+}
+#main{
+    overflow: hidden;
+}
+/* ------------------定义主窗口-------------------- */
+
+/* -----------------------侧边栏----------------------- */
+.headImg{
+    height: 200px;
+    margin-top: 60px;
+}
+.headImg .img{
+    height: 100px;
+    background-image: url('../img/person.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    border-radius: 80px;
+    margin: auto;
+    box-shadow: 0 0 10px 0 #ddd;
+}
+.headImg .motto1{
+    font-size: 12px;
+    color: #666;
+    text-align: left;
+    margin: 20px 0 0 50px;
+}
+.headImg .motto2{
+    font-size: 12px;
+    color: #666;
+    text-align: right;
+    margin: 10px 50px 0 0;
+}
+/* 头像 */
+.menu{
+    margin-top: 20px;
+    width: 100%;
+}
+.menu > ul{
+
+}
+.menu > ul > li{
+    line-height: 40px;
+    height: 40px;
+    text-align: left;
+    font-size: 14px;
+    padding-left: 40px;
+    color: #afbdc6;
+    
+}
+.menu > ul > li.active{
+    color: #637278;
+}
+/* 导航栏 */
+/* -----------------------侧边栏----------------------- */
